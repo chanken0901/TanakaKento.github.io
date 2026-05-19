@@ -40,3 +40,20 @@ footer {
   padding-top: 10px;
   font-size: 0.9em;
 }
+
+.banner-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.banner-container img {
+  height: 80px;
+  width: auto;
+  transition: 0.2s;
+}
+
+.banner-container img:hover {
+  opacity: 0.8;
+}
