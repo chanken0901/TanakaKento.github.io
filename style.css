@@ -57,3 +57,29 @@ footer {
 .banner-container img:hover {
   opacity: 0.8;
 }
+
+.banner-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.banner-container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 220px;
+  height: 120px;
+
+  border: 1px solid #ddd;
+  padding: 10px;
+  background: white;
+}
+
+.banner-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
